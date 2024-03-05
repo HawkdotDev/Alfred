@@ -1,0 +1,20 @@
+{
+  "name": "alfredbot",
+  "version": "1.0.0",
+  "description": "Alfred is your sophisticated Discord butler for server management crafted by HawkdotDev. Elevate your Discord experience and engage in a entertaining server environment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "HawkdotDev",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "sv443-joke-api": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
